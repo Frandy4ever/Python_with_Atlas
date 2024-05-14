@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Print the value of a  str variable 3 times.
 # Print the 5 first chars of str
 
