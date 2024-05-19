@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
 """
-This program will assign a random signed number to
-the variable number.
-It determines if its negative, positive or zero
+This program will assign a random signed number to a variable `number`.
+It determines if the number is negative, positive or zero.
 """
 
 import random
