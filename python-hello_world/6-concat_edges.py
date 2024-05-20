@@ -2,7 +2,7 @@
 
 """
 This program will take particular parts of a given string
-and print a new string from it, using string format.
+to form a new string and print its value, using string format.
 """
 str = "Python is an interpreted, interactive, object-oriented programming\
     language that combines remarkable power with very clear syntax"
