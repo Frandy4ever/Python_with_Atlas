@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# This code prints 98 Battery street with the use of number variable
+"""This program prints out the value of an int variable in a phrase, using string format."""
 number: int = 98
 
 print("{} Battery street".format(number))

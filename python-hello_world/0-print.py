@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
 """
-This code prints the string:
-"Programming is like building a multilingual puzzle
+This program will print a string starting with double quotations, using string format.
 """
-
 print('"Programming is like building a multilingual puzzle')

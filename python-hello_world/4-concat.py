@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-# Complete the following sentence using the given variables
-# Sentence: Welcome to Atlas School!
+"""This program will complete a given sentence with use of the values stored 
+some string variables, using string format."""
 str1: str = "Atlas"
 str2: str = "School"
 
