@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
 """
-This program print numbers from 1 through 100,
-instead of the number, if the number is divisible by:
+This program print numbers from 1 through the number
+passed as arg, if the number is divisible by:
 3 => `Fizz', 5 => `Buzz`, 3 and 5 => `FizzBuzz`
 """
-
 def fizzbuzz(number: int) -> None:
     '''Will print the value of `i`,
         `Fizz`, `Buzz` or `FizzBuzz` dependent
