@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
 """
-This program will remove character at `n` index
-of a copy of a given string.
+This program will print the Ascii alphabet
+in reversed order alternating lowercase and
+uppercase letters.
 """
-def remove_char_at(str: str, n: int) -> None:
-    """Return new string without the value
-    at n index"""
-    for i in range(len(str)):
-        if i == n:
-            continue
-        print(str[i], end='')
-    print()
+
+for i in range(ord('z'), ord('a') -1, -1):
+    if i % 2 == 1:
+        i -= 32
+        print(chr(i), end='')
+    else:
+        print(chr(i), end='')
