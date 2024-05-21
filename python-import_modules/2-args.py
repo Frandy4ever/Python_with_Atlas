@@ -4,12 +4,13 @@ This program will print the count of args pass along with
 the arg number and arg name.
 """
 import sys
+from typing import List
 
 
-def main():
+def main() -> None:
     '''Keeps track and count the number of args passed.'''
-    args = sys.argv[1:]
-    count = len(sys.argv)
+    args: List[str] = sys.argv[1:]
+    count: int = len(sys.argv)
 
     if count == 0:
         print('0 argument.')
