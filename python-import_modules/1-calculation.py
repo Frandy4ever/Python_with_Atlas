@@ -9,7 +9,7 @@ if __name__ == ('__main__'):
     a: int = 10
     b: int = 5
 
-    print(f"{a} + {b} = {cal.add(a, b)}")
-    print(f"{a} - {b} = {cal.sub(a, b)}")
-    print(f"{a} * {b} = {cal.mul(a, b)}")
-    print(f"{a} / {b} = {cal.div(a, b)}")
+    print(f"{a} + {b} = {add(a, b)}")
+    print(f"{a} - {b} = {sub(a, b)}")
+    print(f"{a} * {b} = {mul(a, b)}")
+    print(f"{a} / {b} = {div(a, b)}")
