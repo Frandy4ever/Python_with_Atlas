@@ -4,7 +4,7 @@ This program imports calculator_1 module as cal
 and makes use of its functionalities.
 """
 if __name__ == ('__main__'):
-    import calculator_1 as cal
+    from calculator_1 import add, sub, mul, div
 
     a: int = 10
     b: int = 5
