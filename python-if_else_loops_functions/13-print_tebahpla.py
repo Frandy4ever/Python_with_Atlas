@@ -7,8 +7,4 @@ uppercase letters.
 """
 
 for i in range(ord('z'), ord('a') -1, -1):
-    if i % 2 == 1:
-        i -= 32
-        print(chr(i), end='')
-    else:
-        print(chr(i), end='')
+    print(chr(i - 32) if i % 2 == 1 else chr(i), end='')

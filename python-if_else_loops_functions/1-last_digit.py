@@ -8,8 +8,8 @@ is zero, greater than 5 or less than six and is not zero.
 
 import random
 
-number = random.randint(-10000, 10000)
-digit = abs(number) % 10
+number: int = random.randint(-10000, 10000)
+digit: int = abs(number) % 10
 
 if number < 0:
   digit = -digit
