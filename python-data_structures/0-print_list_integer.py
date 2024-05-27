@@ -5,4 +5,4 @@ from typing import List
 def print_list_integer(my_list: List[int] = []) -> None:
     """Print all elements of my_list"""
     for n in my_list:
-        print("{}".format(n))
+        print("{:d}".format(n))
