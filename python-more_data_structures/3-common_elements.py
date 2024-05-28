@@ -4,7 +4,7 @@
 
 from typing import Set, Union
 
-
+# result = set_1 & set_2 || set_1.intersection(set_2)
 def common_elements(set_1: Set[Union[int, str]],
                     set_2: Set[Union[int, str]]) -> Set[Union[int, str]]:
     """Returns what's common between two sets."""
