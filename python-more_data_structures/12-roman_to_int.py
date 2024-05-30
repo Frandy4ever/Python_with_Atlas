@@ -24,4 +24,7 @@ def roman_to_int(roman_string: str) -> int:
             total -= value
         else:
             total += value
+        
+        # Update previous value
+        prev_value = value
     return total
