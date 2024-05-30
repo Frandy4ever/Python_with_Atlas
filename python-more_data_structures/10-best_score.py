@@ -10,9 +10,9 @@ def best_score(a_dictionary: Dict[str, int]) -> int:
     result = ""
     if not a_dictionary:
         return None
-    else:
-        for k, v in a_dictionary.items():
-            if v > max_score:
-                max_score = v
-                result = k
+
+    for k, v in a_dictionary.items():
+        if v > max_score:
+            max_score = v
+            result = k
     return result
